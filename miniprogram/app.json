@@ -1,26 +1,32 @@
 {
-  "pages": [
+  "pages":[
     "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi",
-    "pages/openapi/serverapi/serverapi",
-    "pages/openapi/callback/callback",
-    "pages/openapi/cloudid/cloudid",
-    "pages/im/im",
-    "pages/im/room/room"
+    "pages/logs/logs",
+    "pages/details/details"
   ],
-  "window": {
-    "backgroundColor": "#F6F6F6",
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
-    "navigationBarTextStyle": "black"
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2f2f8f",
+    "navigationBarTitleText": "GoZeroWaste",
+    "navigationBarTextStyle":"white"
   },
-  "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "tabBar":{
+    "color": "#bfc1ab",
+    "selectedColor": "#13b11c",
+    "backgroundColor": "#1f1f4f",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/icon_component.png",
+        "selectedIconPath": "image/icon_component_HL.png",
+        "text": "个人中心"
+      },
+      {
+        "pagePath": "pages/details/details",
+        "iconPath": "image/icon_API.png",
+        "selectedIconPath": "image/icon_API_HL.png",
+        "text": "生活指南"
+      }
+    ]
+  }
 }
